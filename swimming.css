@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 11, 2020, 12:07:26 PM
+    Author     : ALI HUSSAIN
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.right-menu li
+{
+    display: inline-block;
+    margin-top: 30px !important;
+}
+.right-menu li .fa
+{
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.navbar-brand img
+{
+    width: 160px;
+    
+}
+.navbar-brand
+{
+    left: 50%;
+    top:25px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.pool 
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.bottom-left 
+{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: red;
+}
+.bottom-right
+{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: orange;
+}
+.row::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.row-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+
+/*-----footer-----*/
+.footer
+{
+    margin-top: 150px;
+    background: lightgray;
+}
+.footer-icons
+{
+    text-align: right;
+}
+.footer-icons .fa
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}

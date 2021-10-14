@@ -1,0 +1,777 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 15, 2020, 10:49:31 AM
+    Author     : Ali Hussain
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.right-menu li
+{
+    display: inline-block;
+    margin-top: 30px !important;
+}
+.right-menu li .fa
+{
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.navbar-brand img
+{
+    width: 160px;
+    
+}
+.navbar-brand
+{
+    left: 50%;
+    top:25px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.header
+{
+    background: #f5f6fc;
+    margin-bottom: 80px;
+}
+.navbar
+{
+    padding: 0 35px !important;
+}
+.navbar-toggler
+{
+    border:none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 30px;
+}
+.navbar-toggler .fa
+{
+    font-size: 30px;
+    cursor: pointer;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.academy-img
+{
+    margin:80px 115px;
+    width: 60%;
+}
+academy-img img
+{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.academy
+{
+    position: relative;
+}
+.academy-title
+{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+academy-title h1
+{
+    font-size: 55px;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    line-height: 70px;
+    padding: 0 10px 0 10px;
+}
+/*-----demand on sports-----*/
+.demand on sports
+{
+    padding: 100px 0;
+}
+.sports specifications
+{
+    margin: 80px 0;
+}
+.title-style h1
+{
+    padding:40px 0;
+    
+}
+.title-style
+{
+    margin: 0 auto 80px;
+    height:120px;
+    width: 80%;
+    max-width: 700px;
+    background: white;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.title-style::after
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: lightsalmon;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+        
+}
+.title-style::before
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: lightsalmon;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+        
+}
+/*-----outdoor sports-----*/
+.outdoor sports
+{
+    padding: 100px 0;
+}
+.all sports
+{
+    margin: 80px 0;
+}
+.menu-style h2
+{
+    padding:40px 0;
+    
+}
+.menu-style
+{
+    margin: 0 auto 80px;
+    height:120px;
+    width: 80%;
+    max-width: 700px;
+    background: white;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.menu-style::after
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: greenyellow;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+        
+}
+.menu-style::before
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+        
+}
+
+.football-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.football-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.football-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.basketball-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.basketball-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.basketball-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.cricket-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.cricket-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.cricket-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.swimming-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.swimming-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.swimming-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.volleyball-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.volleyball-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.volleyball-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.tennis-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.tennis-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.tennis-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+/*-----indoor sports-----*/
+.indoor sports
+{
+    padding: 100px 0;
+}
+.each sports
+{
+    margin: 80px 0;
+}
+.sub-style h9
+{
+    padding:40px 0;
+    
+}
+.sub-style
+{
+    margin: 0 auto 80px;
+    height:120px;
+    width: 80%;
+    max-width: 700px;
+    background: white;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.sub-style::after
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.sub-style::before
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.badminton-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.badminton-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.badminton-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.indoor_pool-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.indoor_pool-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.indoor_pool-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.indoor_basketball-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.indoor_basketball-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.indoor_basketball-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.indoor_cricket-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.indoor_cricket-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.indoor_cricket-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.indoor_football-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.indoor_football-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.indoor_football-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.indoor_volleyball-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.indoor_volleyball-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.indoor_volleyball-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+/*-----other sports-----*/
+.other sports
+{
+    padding: 100px 0;
+}
+.non-field sports
+{
+    margin: 80px 0;
+}
+.alt-style h16
+{
+    padding:40px 0;
+    
+}
+.alt-style
+{
+    margin: 0 auto 80px;
+    height:120px;
+    width: 80%;
+    max-width: 700px;
+    background: white;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.alt-style::after
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+.alt-style::before
+{
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+}
+.billiards-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.billiards-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.billiards-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.soap_football-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.soap_football-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.soap_football-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.gym-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.gym-img img
+{
+    width: 100%;
+}
+.btn-enter
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+}
+.gym-img:hover .btn-enter
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+/*-----footer-----*/
+.footer
+{
+    margin-top: 150px;
+    background: lightgray;
+}
+.payment, .equipment-img, .app-download 
+{
+    margin: 50px auto;
+}
+.payment img
+{
+    width: 300px;
+    cursor: pointer;
+}
+.equipment-img img
+{
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+}
+.app-download img
+{
+    width: 200px;
+}
+.footer h20
+{
+    margin-bottom: 50px;
+}
+.footer h20::before
+{
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: salmon;
+    top: 80px;
+    position: absolute;
+}
+.footer-icons
+{
+    text-align: right;
+}
+.footer-icons .fa
+{
+    margin: 0 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+}
